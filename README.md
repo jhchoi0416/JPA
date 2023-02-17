@@ -1,5 +1,4 @@
-# JPA
-
+# JPA (java Persistence API)
 - JPA 는 자바 ORM 기술에 대한 API 표준 명세다.
 - JPA 제공하는 API 사용
     1. 저장 기능

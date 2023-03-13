@@ -112,8 +112,8 @@
    - JPQL은 SQL과 문법이 거의 유사하다.
       - ex) SELECT, FROM, WHERE, GROUP BY...
    - SQL과 차이점
-      1. JPQL은 엔티티 객체를 대상으로 쿼리한다. 쉽게 이야기해서 클래스와 필드를 대상으로 쿼리한다.
-      2. SQL은 데이터베이스 테이블을 대상으로 쿼리한다.
+      - JPQL은 엔티티 객체를 대상으로 쿼리한다. 쉽게 이야기해서 클래스와 필드를 대상으로 쿼리한다.
+      - SQL은 데이터베이스 테이블을 대상으로 쿼리한다.
    - JPQL은 데이터베이스 테이블을 전혀 알지 못한다.
    ```
    public List<Member> getMemberList(EntityManager em) {

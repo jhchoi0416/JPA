@@ -101,7 +101,7 @@
       @Column(name = "name")
       private String name;
 
-      // 매핑 정보가 
+      // 매핑 정보가 없는 필드
       private int age;
    }
    ```
